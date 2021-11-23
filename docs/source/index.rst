@@ -249,7 +249,7 @@ the dataset is usually divided into ``train/valid/test`` or using ``kfold`` meth
 
 ::
 
- edudata train_valid_test $filename1 $filename2 --train_ratio 0.8 --valid_ratio 0.1 --test_ratio 0.1
+ edudata train_valid_test $filename1 $filename2 --train_size 0.8 --valid_size 0.1 --test_size 0.1
  edudata kfold $filename1 $filename2 --n_splits 5
 
 Refer to `longling <https://longling.readthedocs.io/zh/latest/#dataset>`_ for more tools and detailed information.
