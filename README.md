@@ -49,7 +49,7 @@ The [datasets](https://edudata.readthedocs.io/en/latest/tutorial/zh/DataSet.html
 
 * [OpenLUNA](http://base.ustc.edu.cn/data/OpenLUNA/)
 
-* [MOOCCubeX](https://lfs.aminer.cn/misc/moocdata/data/mooccube2/relations/user-problem.json)
+* [MOOCCubeX](https://lfs.aminer.cn/misc/moocdata/data/mooccube2/relations/user-problem.json) 
 
 Your can also visit our datashop [BaseData](http://base.ustc.edu.cn/data/) to get those mentioned-above (most of them) datasets.
 
@@ -195,7 +195,7 @@ In order to better verify the effectiveness of model,
 the dataset is usually divided into `train/valid/test` or using `kfold` method.
 
 ```shell
-edudata train_valid_test $filename1 $filename2 --train_ratio 0.8 --valid_ratio 0.1 --test_ratio 0.1
+edudata train_valid_test $filename1 $filename2 --train_size 0.8 --valid_size 0.1 --test_size 0.1
 edudata kfold $filename1 $filename2 --n_splits 5
 ```
 Refer to [longling](https://longling.readthedocs.io/zh/latest/#dataset) for more tools and detailed information.
