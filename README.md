@@ -49,7 +49,7 @@ The [datasets](https://edudata.readthedocs.io/en/latest/tutorial/zh/DataSet.html
 
 * [OpenLUNA](http://base.ustc.edu.cn/data/OpenLUNA/)
 
-* [MOOCCubeX](https://lfs.aminer.cn/misc/moocdata/data/mooccube2/relations/user-problem.json) 
+* [MOOCCubeX](https://github.com/THU-KEG/MOOCCubeX) 
 
 Your can also visit our datashop [BaseData](http://base.ustc.edu.cn/data/) to get those mentioned-above (most of them) datasets.
 
